@@ -1,0 +1,30 @@
+body{
+    background: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h1 span{
+    color: #c8ffc8;
+}
+input span button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#products{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+.cart{
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+}
+button{
+    background: gray ;
+    border: none;
+    cursor: pointer;
+}
